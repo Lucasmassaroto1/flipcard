@@ -3,21 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap">
     <link rel="stylesheet" href="src/style/style.css">
     <title>flip-card | Lucas Massaroto</title>
 </head>
 <body>
-    <main class="flex">
-        <div class="card-container" onclick="virar()">
-            <div class="card" id="card">
-                <div class="front">
-                    <p>Frente Do Card</p>
-                </div>
-                <div class="back">
-                    <p>Costas Do Card</p>
+    <main>
+        <section class="container" id="">
+            <div class="card-container" onclick="virar(this)">
+                <div class="card">
+                    <div class="front">
+                        <p>Card1</p>
+                    </div>
+                    <div class="back">
+                        <p>Car1 Virado!</p>
+                    </div>
                 </div>
             </div>
-        </div>
+            <div class="card-container" onclick="virar(this)">
+                <div class="card">
+                    <div class="front">
+                        <p>Card2</p>
+                    </div>
+                    <div class="back">
+                        <p>Card2 Virado!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container" onclick="virar(this)">
+                <div class="card">
+                    <div class="front">
+                        <p>Card3</p>
+                    </div>
+                    <div class="back">
+                        <p>Card3 Virado!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container" onclick="virar(this)">
+                <div class="card">
+                    <div class="front">
+                        <p>Card4</p>
+                    </div>
+                    <div class="back">
+                        <p>Card4 Virado!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container" onclick="virar(this)">
+                <div class="card">
+                    <div class="front">
+                        <p>Card5</p>
+                    </div>
+                    <div class="back">
+                        <p>Card5 Virado!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <script src="src/script/script.js"></script>
 </body>
