@@ -1,5 +1,3 @@
-let card = document.getElementById('card');
-
-function virar(){
-    card.classList.toggle('virado');
+function virar(elemento){
+    elemento.querySelector('.card').classList.toggle('virado');
 }
